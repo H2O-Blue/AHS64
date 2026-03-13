@@ -14,8 +14,15 @@ Instead of compressing data, it inflates it into integers so massive they make c
 - Looks like magic, but it’s just base conversion  
 
 ## Usage
+Note: do not do this at home as "words2num" doesn't exist (or at least not in my understanding) on PyPI
+Instead, just run the included Python script directly:
+```bash
+python words2num.py "Hello, world!"
 ```
->>> from words2num import words2num #do not do this at home as "words2num" doesn't exist (or at least not in my understanding) on PyPI
+Which outputs 91773068209181679254210355806736
+Or, if you're inside Python:
+```python
+>>> from words2num import words2num #remember the note?
 >>> words2num("Hello, world!")
 91773068209181679254210355806736
 >>> words2num("Please don't turn me into a number D:")
@@ -26,6 +33,10 @@ Instead of compressing data, it inflates it into integers so massive they make c
 - not suitable for small integers
 - May cause existensial dread
 - Collisions irrelevant—no one can store the output anyway
+- If you use this in an ARG, add five empty lines and then a "p" in the desc, just to confuse people even more
+- The previous one was completely just a troll, but if you somehow commit to the bit, I guess... Thanks?
+- If you want to convert it back, make your own code to do it, I'm lazy.
+- 9 out of 10 doctors DON'T recommend this. Turns out one of them is psychotic.
 
 ## License
 This project is licensed under the Unlicense.  
