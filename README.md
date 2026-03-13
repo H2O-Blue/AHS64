@@ -14,17 +14,19 @@ Instead of compressing data, it inflates it into integers so massive they make c
 - Looks like magic, but it’s just base conversion  
 
 ## Usage
-```bash
-words2num "Hello, world!"
-# Output: 91773068209181679254210355806736
-words2num "Please don't turn me into a number D:"
-# Output: 639942983767050993241300677095348160276790952976154343966310455055426182129226934053520288
+```
+>>> from words2num import words2num #do not do this at home as "words2num" doesn't exist (or at least not in my understanding) on Pypi
+>>> words2num("Hello, world!")
+123456789012345678901234567890
+>>> words2num("Please don't turn me into a number D:")
+639942983767050993241300677095348160276790952976154343966310455055426182129226934053520288
 ```
 
 ## Warning
 - not suitable for small integers
 - May cause existensial dread
 - Collisions irrelevant—no one can store the output anyway
+
 ## License
 This project is licensed under the Unlicense.  
 Translation: anyone can use it, for anything, without restrictions.
