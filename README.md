@@ -17,7 +17,7 @@ Instead of compressing data, it inflates it into integers so massive they make c
 ```
 >>> from words2num import words2num #do not do this at home as "words2num" doesn't exist (or at least not in my understanding) on Pypi
 >>> words2num("Hello, world!")
-123456789012345678901234567890
+91773068209181679254210355806736
 >>> words2num("Please don't turn me into a number D:")
 639942983767050993241300677095348160276790952976154343966310455055426182129226934053520288
 ```
