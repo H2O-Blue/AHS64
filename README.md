@@ -39,6 +39,10 @@ Or, if you're inside Python:
 - 9 out of 10 doctors DON'T recommend this. Turns out one of them is psychotic.
 - WARNING: Do NOT import the actual `num2words` package from PyPI alongside this one. Unless you enjoy watching namespaces fight to the death.
 
+Fun fact: The real `num2words` package converts numbers into words.
+This fake `num2words` converts absurdly huge numbers back into words.
+Together, they form a cursed yin-yang of Python APIs.
+
 ## License
 This project is licensed under the Unlicense.  
 Translation: anyone can use it, for anything, without restrictions.
