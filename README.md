@@ -37,6 +37,7 @@ Or, if you're inside Python:
 - The previous one was completely just a troll, but if you somehow commit to the bit, I guess... Thanks?
 - If you want to convert it back, make your own code to do it, I'm lazy.
 - 9 out of 10 doctors DON'T recommend this. Turns out one of them is psychotic.
+- WARNING: Do NOT import the actual `num2words` package from PyPI alongside this one. Unless you enjoy watching namespaces fight to the death.
 
 ## License
 This project is licensed under the Unlicense.  
