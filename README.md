@@ -14,12 +14,12 @@ Instead of compressing data, it inflates it into integers so massive they make c
 - Looks like magic, but it’s just base conversion  
 
 ## Usage
-Note: do not do this at home as "words2num" doesn't exist (or at least not in my understanding) on PyPI
+Note: do not do this at home as "words2num" or "AHS64" doesn't exist (or at least not in my understanding) on PyPI
 Instead, just run the included Python script directly:
 ```bash
 python words2num.py "Hello, world!"
 ```
-Which outputs 91773068209181679254210355806736
+Which outputs 91773068209181679254210355806736.
 Or, if you're inside Python:
 ```python
 >>> from words2num import words2num #remember the note?
