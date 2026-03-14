@@ -37,7 +37,7 @@ def num2words(value: int) -> str:
 
     Looks impressive, but really it's just undoing the base conversion.
     What kind of base conversion you ask? Same FAFO energy, just reversed.
-    WARNING: Do NOT import the actual `num2words` package from PyPI
+    WARNING: Do NOT import the actual num2words package from PyPI
     alongside this one. Unless you enjoy watching namespaces fight to the death.
     """
     # Base64 alphabet
@@ -56,3 +56,4 @@ def num2words(value: int) -> str:
     
     # Decode base64 back to text
     return base64.b64decode(b64).decode()
+
