@@ -8,6 +8,7 @@ def words2num(text: str) -> int:
     ----------
     text : str
         The words you foolishly decided to turn into a number.
+        Warning: Please do not input anything outside the ASCII table
 
     Returns
     -------
