@@ -26,10 +26,13 @@ def words2num(text: str) -> int:
     # Encode text to base64, strip padding
     b64 = base64.b64encode(text.encode()).decode().rstrip("=")
     
-    # Convert base64 string into a giant integer
-    value = 0
+    # Convert base64 string into binary
+    value = ''
     for ch in b64:
-        value = value * 64 + alphabet.index(ch)
+        value += format(alphabet.index(ch),'06b')
+    
+    # Convert binary string into decimal
+    value = int(value, 2)
     return value
 
 def num2words(value: int) -> str:
@@ -47,14 +50,12 @@ def num2words(value: int) -> str:
     # Convert integer back into base64 string
     chars = []
     while value > 0:
-        value, idx = divmod(value, 64)
+        value, idx = val >> 6, val & 63 # Using some bitwise operations
         chars.append(alphabet[idx])
     b64 = "".join(reversed(chars))
     
     # Pad with '=' to make length a multiple of 4
-    while len(b64) % 4 != 0:
-        b64 += "="
+    b64 += '=' * (4 - len(b64) & 3)
     
     # Decode base64 back to text
     return base64.b64decode(b64).decode()
-
