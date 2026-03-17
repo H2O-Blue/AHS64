@@ -37,7 +37,7 @@ Or, if you're inside Python:
 - The previous one was completely just a troll, but if you somehow commit to the bit, I guess... Thanks?
 - 9 out of 10 doctors DON'T recommend this. Turns out one of them is psychotic.
 - Do NOT import the actual `num2words` package from PyPI alongside this one. Unless you enjoy watching namespaces fight to the death.
-- The name "AHS64" actually is used by some other people with other meanings, but this one, just... Scroll up to the top. Basic coincidences really.
+- The name "AHS64" might be used somewhere else with a different meaning. I'm just telling you this because of... Simple coincidences.
 
 Fun fact: The real `num2words` package converts numbers into words.
 This fake `num2words` converts absurdly huge numbers back into words.
