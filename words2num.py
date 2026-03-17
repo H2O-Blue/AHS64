@@ -29,7 +29,7 @@ def words2num(text: str) -> int:
     # Convert base64 string into binary
     value = ''
     for ch in b64:
-        value += format(alphabet.index(ch),'06b')
+        value += format(alphabet.index(ch), '06b')
     
     # Convert binary string into decimal
     value = int(value, 2)
