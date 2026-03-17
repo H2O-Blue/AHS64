@@ -50,7 +50,7 @@ def num2words(value: int) -> str:
     # Convert integer back into base64 string
     chars = []
     while value > 0:
-        value, idx = val >> 6, val & 63 # Using some bitwise operations
+        value, idx = value >> 6, value & 63 # Using some bitwise operations
         chars.append(alphabet[idx])
     b64 = "".join(reversed(chars))
     
