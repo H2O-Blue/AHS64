@@ -43,6 +43,28 @@ Fun fact: The real `num2words` package converts numbers into words.
 This fake `num2words` converts absurdly huge numbers back into words.
 Together, they form a cursed yin-yang of Python APIs.
 
+## Q&A Section
+**Q: What is AHS64?**  
+A: idk maybe scroll up?
+
+**Q: What does "AHS64" stand for?**  
+A: also scroll up maybe?
+
+**Q: Is this secure enough for cryptography?**  
+A: Only if you think a bunch of digits is secure, which probably means yes. *But* it's reversible. So it's up to you.
+
+**Q: Why would anyone need absurdly huge numbers?**  
+A: I guess... For ARGs and for quizzes that has questions that are deliberately impossible to solve?
+
+**Q: How does it work?**  
+A: I'm not gonna tell you that :)
+
+**Q: Can I use this in production?**  
+A: Just look at the license.
+
+**Q: Is this repo serious?**  
+A: Have you even seen the amount of sarcasm?
+
 ## License
 This project is licensed under the Unlicense.  
 Translation: anyone can use it, for anything, without restrictions.
