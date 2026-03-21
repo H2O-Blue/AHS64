@@ -29,6 +29,14 @@ Or, if you're inside Python:
 639942983767050993241300677095348160276790952976154343966310455055426182129226934053520288
 ```
 
+## Installation
+Clone the repo and run the code with python 3.x with `x` being uhhhhh any number really
+```Bash
+git clone https://github.com/H2O-Blue/AHS64.git
+cd AHS64
+python words2num.py "hello world"
+```
+
 ## Warning
 - not suitable for small integers
 - May cause existensial dread
