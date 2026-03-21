@@ -1,7 +1,7 @@
 # AHS64: Anti‑Hash Standard 64
 
-> You’ve heard of SHA256. You've heard of num2words. Now get ready for SHA“whatinthehellisthismethod.”
-> (Also called AHS64 or words2num)
+> You’ve heard of SHA256. You've heard of num2words. Now get ready for AHS64
+> (Also called words2num)
 
 ## Overview
 AHS64 is a revolutionary anti‑hash algorithm that converts words into absurdly huge numbers.  
