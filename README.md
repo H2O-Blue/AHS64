@@ -51,7 +51,7 @@ A: idk maybe scroll up?
 A: Quarter inch thick 2 inch wide 3 inch long nine sixteenth inch slot width Aluminum Horseshoe Shims with 6061-T6 aluminum alloy. But only if you didn't mean *this* repo.
 
 **Q: Why is it named like that?**  
-A: Uhhhh the "AHS" part is from the fact that it's just about the opposite of hashing, "SHA", and the 64? uhhhh totally random number that doesn't correspond to a step in the base conversion, *nooooo* it's not in there, definitely not in there.
+A: Uhhhh the "AHS" part is from the fact that it's just about the opposite of hashing, "SHA", and the 64? uhhhh totally random number that doesn't correspond to a step in the base conversion, *nooooo* it's not in there, *definitely* not in there.
 
 **Q: Is this secure enough for cryptography?**  
 A: Only if you think a bunch of digits is secure, which probably means yes. *But* it's reversible. So it's up to you.
