@@ -48,7 +48,7 @@ Together, they form a cursed yin-yang of Python APIs.
 A: idk maybe scroll up?
 
 **Q: What does "AHS64" stand for?**  
-A: quarter inch thick 3 inch long 9/16 inch slot width Aluminum Horseshoe Shims with 6061-T6 aluminum alloy. But only if you didn't mean *this* repo.
+A: quarter inch thick 3 inch long nine sixteenth inch slot width Aluminum Horseshoe Shims with 6061-T6 aluminum alloy. But only if you didn't mean *this* repo.
 
 **Q: Is this secure enough for cryptography?**  
 A: Only if you think a bunch of digits is secure, which probably means yes. *But* it's reversible. So it's up to you.
