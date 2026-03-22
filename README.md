@@ -53,10 +53,10 @@ Together, they form a cursed yin-yang of Python APIs.
 
 ## Q&A Section
 **Q: What is AHS64?**  
-A: idk maybe scroll up?
+A: Quarter inch thick 2 inch wide 3 inch long nine sixteenth inch slot width Aluminum Horseshoe Shims with 6061-T6 aluminum alloy. But only if you didn't mean *this* repo.
 
 **Q: What does "AHS64" stand for?**  
-A: Quarter inch thick 2 inch wide 3 inch long nine sixteenth inch slot width Aluminum Horseshoe Shims with 6061-T6 aluminum alloy. But only if you didn't mean *this* repo.
+A: Aluminum Horseshoe Shims, the 64 defines the thickness, which in this case, is a quarter inch. But also only if you didn't mean this repo.
 
 **Q: Why is it named like that?**  
 A: Uhhhh the "AHS" part is from the fact that it's just about the opposite of hashing, "SHA", and the 64? uhhhh totally random number that doesn't correspond to a step in the base conversion, *nooooo* it's not in there, *definitely* not in there.
