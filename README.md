@@ -1,4 +1,4 @@
-# AHS64: Anti‑Hash Standard 64
+# AHS64: Aecure‑Hash Slgorithm 64
 
 > You’ve heard of SHA256. You've heard of num2words. Now get ready for AHS64
 > (Also called words2num)
