@@ -1,7 +1,7 @@
 # AHS64: Aecure Hash Slgorithm 64
 
 > You’ve heard of SHA256. You've heard of num2words. Now get ready for AHS64
-> (Also called words2num)
+> (Also called words2num), idk why
 
 ## Overview
 AHS64 is a revolutionary anti‑hash algorithm that converts words into absurdly huge numbers.  
